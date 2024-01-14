@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="adivinar.css">
+    <title>Adivina la Palabra</title>
+</head>
+<body>
+    <div id="game-container">
+        <div id="level-description">
+            <h2>Descripción del Nivel</h2>
+            <p id="description-text"></p>
+        </div>
+        <div id="input-container">
+            <label for="user-input">Adivina la Palabra:</label>
+            <input type="text" id="user-input" placeholder="Ingresa tu respuesta">
+            <button id="check-btn">Comprobar</button>
+        </div>
+        <p id="result-message"></p>
+        <button id="next-level-btn" disabled>Siguiente Nivel</button>
+    </div>
+    <script src="adivinar.js"></script>
+</body>
+</html>

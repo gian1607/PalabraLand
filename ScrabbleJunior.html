@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scrabble.css">
+    <title>Encuentra las Palabras</title>
+</head>
+<body>
+    <div class="game-container">
+        <h1>Encuentra las Palabras</h1>
+        <div class="letter-row" id="letter-row">
+            <!-- La fila de letras se generará dinámicamente con JavaScript -->
+        </div>
+        <div class="word-input">
+            <label for="user-word">Ingresa una palabra:</label>
+            <input type="text" id="user-word" />
+            <button onclick="checkWord()">Comprobar</button>
+        </div>
+        <div class="level-progress">
+            <p>Palabras a encontrar:</p>
+            <ul id="target-words-list">
+                <!-- Las palabras del nivel se generarán dinámicamente con JavaScript -->
+            </ul>
+        </div>
+        <div class="found-words">
+            <p>Palabras encontradas: <span id="found-words">0</span> / 3</p>
+        </div>
+        <div class="next-level">
+            <button id="next-level-button" onclick="goToNextLevel()" disabled>Siguiente Nivel</button>
+        </div>
+    </div>
+    <script src="scrabble.js"></script>
+</body>
+</html>
+

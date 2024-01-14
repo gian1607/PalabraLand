@@ -1,0 +1,72 @@
+/* Estilos para el juego Scrabble */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ffcccb;
+    margin: 30px 0 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.game-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #e44d26;
+}
+
+.letter-row {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.letter-tile {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.word-input {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 16px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.level-progress, .found-words {
+    margin-top: 20px;
+}
+
+#target-words-list {
+    list-style-type: none;
+    padding: 0;
+}
